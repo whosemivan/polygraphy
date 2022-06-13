@@ -1,0 +1,91 @@
+.course-info {
+    width: 1220px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 236px;
+}
+
+.course-info__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    margin-bottom: 40px;
+}
+
+.course-info__list {
+    .list;
+}
+
+.course-info__item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    padding-left: 40px;
+    padding: 0;
+
+    &::before {
+        content: "1";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 59px;
+        color: @blue;
+        margin-right: 16px;
+    }
+}
+
+.course-info__item:nth-child(2)::before {
+    content: "2";
+}
+
+.course-info__item:nth-child(3)::before {
+    content: "3";
+}
+
+.course-info__item:last-child::before {
+    content: "4";
+}
+
+.course-info__price {
+    background: #FFFFFF;
+    box-shadow: 6px 6px 14px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 19px;
+    width: 557px;
+    height: 252px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 219px;
+}
+
+.course-info__price-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    margin-top: 22px;
+    margin-bottom: 32px;
+}
+
+.course-info__price-item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 28px;
+}
+
+.course-info__price-item span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.course-info__price-list {
+    .list;
+}

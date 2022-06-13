@@ -1,0 +1,45 @@
+.first-screen {
+    width: 100%;
+    position: relative;
+    min-height: 650px;
+
+    &::after {
+        content: '';
+        background-image: url("../img/first-screen-image.svg");
+        width: 452px;
+        height: 759px;
+        position: absolute;
+        right: 0;
+        top: -45px;
+        background-repeat: no-repeat;
+    }
+}
+
+.first-screen__wrapper {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.first-screen__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    color: @black;
+    width: 856px;
+    margin-bottom: 24px;
+}
+
+.first-screen__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    width: 719px;
+    margin-bottom: 80px;
+}
+
+.first-screen__btn {
+    .btn;
+}

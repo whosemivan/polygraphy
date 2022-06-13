@@ -1,0 +1,69 @@
+.header {
+    width: 1385px;
+    // может поменять на проценты
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    opacity: 1;
+    transition: opacity 0.4s;
+
+    &:hover {
+        opacity: 0.7;
+    }
+
+    &:active {
+        opacity: 0.5;
+    }
+}
+
+.header__nav-list {
+    .list;
+    display: flex;
+}
+
+.header__nav-list-item {
+    margin-right: 85px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.header__logo-link {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo-text {
+    color: @blue;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.header__logo-image {
+    margin-right: 18px;
+}
+
+.header__nav-list-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: @black;
+
+    transition: opacity 0.4s;
+
+
+    &:hover {
+        opacity: 0.7;
+    }
+
+    &:active {
+        opacity: 0.5;
+    }
+}
